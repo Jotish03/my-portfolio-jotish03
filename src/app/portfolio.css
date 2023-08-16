@@ -1,0 +1,91 @@
+/* styles/portfolio.css */
+
+/* Global Styles */
+body {
+    background-color: #0d1117;
+    color: #c8c8c8;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Styles */
+  .menu-button svg,
+  .close-button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #00ff00;
+  }
+  
+  .menu-button:hover svg,
+  .close-button:hover svg {
+    fill: transparent;
+    border-color: #00ff00;
+  }
+  
+  .terminal-search {
+    border: none;
+    background-color: transparent;
+    color: #00ff00;
+    width: 100%;
+    outline: none;
+  }
+  
+  .terminal-button {
+    background-color: #00ff00;
+    color: #0d1117;
+    border: 1px solid #00ff00;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .terminal-button:hover {
+    background-color: transparent;
+    color: #00ff00;
+    border-color: #00ff00;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -20rem;
+    height: 100vh;
+    width: 20rem;
+    background-color: #24292e;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .show-sidebar {
+    transform: translateX(20rem);
+  }
+  
+  /* TypingText Styles */
+  .typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    color: #00ff00;
+    font-size: 1.2rem;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #00ff00;
+    }
+  }
+  
