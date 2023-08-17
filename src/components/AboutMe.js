@@ -45,7 +45,7 @@ const AboutMe = () => {
             My journey began with a curiosity for coding and design, leading me
             to create user-centric web applications that contribute to
             open-source projects. With an insatiable thirst for knowledge, I am
-            committed to pushing the boundaries of web technologies. Let&apos;s
+            committed to pushing the boundaries of web technologies. Lets
             collaborate and turn your digital vision into reality!
           </p>
         </div>
