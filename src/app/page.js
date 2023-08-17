@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import TypingText from "../components/TypingText";
+import AboutMe from "@/components/AboutMe";
+import ProjectsSection from "@/components/ProjectsSection";
 
 const Home = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -23,7 +25,8 @@ const Home = () => {
       <div className="bg-0d1117 p-4 mt-4 md:mt-12 shadow-md rounded">
         <TypingText />
       </div>
-
+      <AboutMe />
+      <ProjectsSection />
       {/* ... Rest of your content */}
     </div>
   );
