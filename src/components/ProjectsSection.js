@@ -8,7 +8,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="py-16 mt-[-80px] bg-black">
+    <section id="projects" className="py-16 mt-[-80px] bg-[#000000">
       <div className="container mx-auto px-4">
         <div className="relative overflow-hidden">
           <div className="glow-border"></div>

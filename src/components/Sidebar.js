@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, onClose }) => {
       ref={sidebarRef}
     >
       <button
-        className="mt-2 mx-2 close-button absolute top-1 right-1"
+        className="mt-2 mx-2 close-button2 absolute top-1 right-1"
         onClick={onClose}
       >
         <svg
@@ -69,6 +69,11 @@ const Sidebar = ({ isOpen, onClose }) => {
           Contact
         </a>
       </nav>
+      {isOpen && (
+        <div className="text-green-500 text-sm font-semibold px-4 py-2 absolute bottom-0 w-full text-center">
+          Developed by Jotish Sharma
+        </div>
+      )}
     </div>
   );
 };

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const TypingText = () => {
   const messages = [
     "Hello, I am Jotish Sharma.",
-    "Type '/jotishresume' to download my resume.",
+    "Type '/jotishresume' for resume.",
   ];
 
   const [messageIndex, setMessageIndex] = useState(0);
@@ -41,7 +41,7 @@ const TypingText = () => {
   return (
     <div className="mt-[-30px] p-4 bg-0d1117 shadow-md rounded ">
       <div className="text-00ff00 md:flex">
-        <span className="hidden md:inline-block">user@portfolio:</span>
+        <span className="hidden md:inline-block">jotish@portfolio:</span>
         <span className="md:hidden">~$ </span>
         <span className="text-c8c8c8 md:inline md:whitespace-nowrap md:break-normal">
           {currentMessage}

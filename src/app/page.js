@@ -6,6 +6,9 @@ import Sidebar from "../components/Sidebar";
 import TypingText from "../components/TypingText";
 import AboutMe from "@/components/AboutMe";
 import ProjectsSection from "@/components/ProjectsSection";
+import QualificationsSection from "@/components/QualificationsSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -27,6 +30,9 @@ const Home = () => {
       </div>
       <AboutMe />
       <ProjectsSection />
+      <QualificationsSection />
+      <ContactSection />
+      <Footer />
       {/* ... Rest of your content */}
     </div>
   );

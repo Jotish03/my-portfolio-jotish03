@@ -9,14 +9,14 @@ body {
   
   /* Header Styles */
   .menu-button svg,
-  .close-button svg {
+  .close-button2 svg {
     width: 1.5rem;
     height: 1.5rem;
     fill: #00ff00;
   }
   
   .menu-button:hover svg,
-  .close-button:hover svg {
+  .close-button2:hover svg {
     fill: transparent;
     border-color: #00ff00;
   }

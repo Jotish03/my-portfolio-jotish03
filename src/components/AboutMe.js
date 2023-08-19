@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="py-16 bg-black">
+    <section id="about" className="py-16 mt-[-60px] bg-[#000000">
       <div className="container mx-auto px-4">
         <div className="border border-green-500 border-solid rounded-lg p-8 relative overflow-hidden">
           <div className="glow-border"></div>
